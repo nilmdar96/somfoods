@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 240" role="img">
+  <rect width="120" height="240" rx="24" ry="24" fill="#D94221" />
+  <polygon points="60,40 100,180 20,180" fill="#FFDA00" />
+  <text x="60" y="150" fill="#fff" font-family="Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">Doritos</text>
+  <text x="60" y="175" fill="#fff" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">Nacho</text>
+  <text x="60" y="190" fill="#fff" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">Cheese</text>
+</svg>

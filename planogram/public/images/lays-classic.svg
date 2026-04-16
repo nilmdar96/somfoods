@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 240" role="img">
+  <rect width="120" height="240" rx="24" ry="24" fill="#F7C823" />
+  <circle cx="60" cy="100" r="40" fill="#fff" />
+  <path d="M60 76c20 0 32 8 32 24s-12 24-32 24-32-8-32-24 12-24 32-24z" fill="#E31D1A" />
+  <text x="60" y="160" fill="#000" font-family="Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">Lay's</text>
+  <text x="60" y="190" fill="#000" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">Classic</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 240" role="img">
+  <defs>
+    <linearGradient id="pepsiGrad" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1E4AA2"/>
+      <stop offset="100%" stop-color="#082551"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="12" width="104" height="216" rx="20" ry="20" fill="url(#pepsiGrad)" stroke="#16407f" stroke-width="3"/>
+  <circle cx="60" cy="110" r="36" fill="#fff"/>
+  <path d="M26 110c0-22 18-40 40-40s40 18 40 40-18 40-40 40-40-18-40-40z" fill="#de1622"/>
+  <path d="M60 90c18 0 32 8 32 18s-14 18-32 18-32-8-32-18 14-18 32-18z" fill="#0070c0"/>
+  <text x="60" y="195" fill="#fff" font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">Pepsi</text>
+  <text x="60" y="215" fill="#fff" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">500ml</text>
+</svg>

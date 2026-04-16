@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 240" role="img">
+  <defs>
+    <linearGradient id="sliceGrad" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffd057"/>
+      <stop offset="100%" stop-color="#f9a825"/>
+    </linearGradient>
+  </defs>
+  <rect x="14" y="16" width="92" height="208" rx="22" ry="22" fill="url(#sliceGrad)" stroke="#f08f0a" stroke-width="3"/>
+  <circle cx="60" cy="100" r="30" fill="#fff"/>
+  <path d="M60 72c18 0 25 12 25 22s-7 22-25 22-25-12-25-22 7-22 25-22z" fill="#f59e0b"/>
+  <text x="60" y="125" fill="#0f3d2e" font-family="Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle">Slice</text>
+  <text x="60" y="145" fill="#0f3d2e" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">Mango</text>
+  <text x="60" y="190" fill="#0f3d2e" font-family="Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">Tropicana</text>
+</svg>

@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+/* ─── Custom properties for the Konva canvas area (not DOM-styled) ──── */
+:root {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: var(--font-sans);
+  overflow: hidden;
+}
+
+/* ─── Scrollbar styling (Tailwind doesn't cover this) ───────────────── */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+
+/* ─── Toast animation (Tailwind doesn't have translateX+Y combo) ───── */
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+.animate-toast-in {
+  animation: toast-in 0.2s ease-out;
+}
+
+/* ─── Spinner animation ────────────────────────────────────────────── */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spinner {
+  animation: spin 0.8s linear infinite;
+}

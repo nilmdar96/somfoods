@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 240" role="img">
+  <defs>
+    <linearGradient id="kurkureGrad" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ff9d1b"/>
+      <stop offset="100%" stop-color="#d64f09"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="12" width="104" height="216" rx="26" ry="26" fill="url(#kurkureGrad)" stroke="#c54e0a" stroke-width="3"/>
+  <path d="M30 75 C 45 40, 75 40, 90 75 S 86 155, 60 170 S 29 170, 30 75 Z" fill="#fff" opacity="0.15"/>
+  <text x="60" y="70" fill="#fff" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">Kurkure</text>
+  <text x="60" y="95" fill="#fff" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">Masala Munch</text>
+  <circle cx="60" cy="145" r="24" fill="#fff" opacity="0.85"/>
+  <text x="60" y="151" fill="#c54e0a" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Crunchy</text>
+</svg>
